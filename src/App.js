@@ -1,4 +1,5 @@
 import "./App.css";
+import HandTracking from "./components/HandTracking";
 import Webcam from "./components/Webcam";
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <div>
       <header>안녕</header>
       <Webcam />
+      <HandTracking />
     </div>
   );
 }
